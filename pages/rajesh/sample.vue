@@ -33,7 +33,7 @@ export default {
         id: 'customer-name',
         name: 'Name',
         placeholder: 'Enter Your Name',
-        disabled: 'true'
+        disabled: 'true' 
       }
     }
     custFieldInfo.email = {
