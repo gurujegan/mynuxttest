@@ -26,29 +26,29 @@ export default {
   created () {
     const custFieldInfo = {}
 
-    custFieldInfo.name1 = {
+    custFieldInfo.firstname = {
       component: 'ElInputText',
       type: 'String',
       attributes: {
-        id: 'customer-name',
+        id: 'first-name',
         name: 'Student Name',
         placeholder: 'First Name'
       }
     }
-    custFieldInfo.name2 = {
+    custFieldInfo.middlename = {
       component: 'ElInputText',
       type: 'String',
       attributes: {
-        id: 'student-name',
+        id: 'middle-name',
         name: 'Student Name',
         placeholder: 'Middle Name'
       }
     }
-    custFieldInfo.name3 = {
+    custFieldInfo.lastname = {
       component: 'ElInputText',
       type: 'String',
       attributes: {
-        id: 'customer-name',
+        id: 'last-name',
         name: 'Student Name',
         placeholder: 'Last Name'
       }
@@ -58,7 +58,7 @@ export default {
       type: 'String',
       attributes: {
         id: 'customer-address1',
-        name: 'address1',
+        name: 'address line 1',
         placeholder: 'Enter Address1'
       }
     }
@@ -67,17 +67,17 @@ export default {
       type: 'String',
       attributes: {
         id: 'customer-address2',
-        name: 'address1',
+        name: 'address line 2',
         placeholder: 'Enter Address2'
       }
     }
-    custFieldInfo.address3 = {
+    custFieldInfo.city = {
       component: 'ElInputText',
       type: 'String',
       attributes: {
-        id: 'customer-address3',
-        name: 'address1',
-        placeholder: 'Enter Address3'
+        id: 'student-address3',
+        name: 'City',
+        placeholder: 'Enter city'
       }
     }
     custFieldInfo.pincode = {
@@ -85,7 +85,7 @@ export default {
       type: 'String',
       attributes: {
         id: 'customer-pincode',
-        name: 'address1',
+        name: 'Pincode',
         placeholder: 'Enter Pincode'
       }
     }
